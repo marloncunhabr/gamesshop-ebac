@@ -14,7 +14,7 @@ form button {
 
 .logotesla {
     height: 32px;
-    filter: invert(100%);
+    filter: invert(100%); 
 }
 
 body {
@@ -31,7 +31,7 @@ textarea {
 header {
     padding: 40px 0;
     background-image: linear-gradient(to right, #555658, #28252d);
-    color: #fff;
+    color: #fff; 
 }
 
 header nav li {
