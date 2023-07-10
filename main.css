@@ -8,18 +8,30 @@ header,
 section h2,
 section h3,
 form button {
-    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.logotesla {
+    height: 32px;
+    filter: invert(100%);
+}
+
+body {
+    background-color: #000000;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
 }
 
-body, input, textarea {
-    font-family: 'Roboto', sans-serif;
-}
-
 header {
-    padding: 16px 0;
-    background-color: #182C61;
-    color: #ecF0F1;
+    padding: 40px 0;
+    background-image: linear-gradient(to right, #555658, #28252d);
+    color: #fff;
 }
 
 header nav li {
@@ -29,14 +41,21 @@ header nav li {
 }
 
 header nav li a {
-    color: #ecF0F1;
+    color: #f1f1f1;
     text-decoration: none;
 }
 
-.container{
+.container {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#page2 div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 header .container,
@@ -47,39 +66,56 @@ section .container {
 }
 
 .brands-list img {
-    height: 24px;
+    height: 15px;
 }
+
+.store-front img {
+    height: 30px;
+    line-height: 0.1;
+}
+
+
 
 .brands-list li {
-display: inline;
-margin-right: 8px;
+    display: inline;
+    margin-right: 8px;
+    filter: invert(100%);
 }
+
+#embreve li {
+    filter: invert(0%);
+}
+
 
 section .container {
-align-items: flex-start;
+    align-items: flex-start;
 }
 
+
 section {
-    padding: 24px 0;
+    padding: 90px 0;
 }
+
 
 section h2 {
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 section {
-    color: #182C61;
+    color: #ffffff;
 }
 
 section p {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
+
 .store-front {
-margin-right: 32px;
+    width: 800px;
+    margin-right: 32px;
 }
 
 .social-links img {
-    height: 24px;
+    height: 50px;
 }
 
 .social-links li {
@@ -100,11 +136,11 @@ margin-right: 32px;
     justify-content: space-between;
 }
 
-form input, 
+form input,
 form textarea,
 form button {
     display: block;
-    width: 320px;
+    width: 300px;
     margin-bottom: 8px;
     padding: 8px;
 }
@@ -119,23 +155,27 @@ section h3 {
 }
 
 form button {
-    background-color: #182C61;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #314e9e;
-} 
-
-input:focus, textarea:focus {
-    outline-color: #182C61;
+    background-color: #ffffff;
 }
 
-footer{
-   background-color: #182C61;
-   color: #ecF0F1;
-   padding: 16px 0;
-   
+input:focus,
+textarea:focus {
+    outline-color: rgb(255, 255, 255);
+}
+
+footer {
+    background-image: linear-gradient(to left, #363a45, #000000);
+    color: #fff;
+    padding: 16px 0;
+}
+
+.social-links {
+    filter: invert(100%);
 }
